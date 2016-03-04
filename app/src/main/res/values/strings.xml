@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="TextOne">TextOne</string>
+    <string name="Push">Push to change text</string>
+</resources>
