@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    int  a = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,13 +20,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if(a > 0) {
+               if(textView.getText().toString().equals("TextOne")){
                     textView.setText("TextTwo");
-                    a = 0;
                 } else {
                     textView.setText("TextOne");
-                    a = 1;
-
                 }
 
             }
